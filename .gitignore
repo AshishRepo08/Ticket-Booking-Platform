@@ -1,0 +1,16 @@
+# Ignore MySQL / Docker volumes
+inventoryservice/volume-data/
+**/volume-data/
+
+# Ignore build files
+target/
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
